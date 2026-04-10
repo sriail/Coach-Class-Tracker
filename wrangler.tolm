@@ -1,0 +1,12 @@
+name = "coachclass-helper"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+ 
+[[kv_namespaces]]
+binding = "RESPONSES"
+id      = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+ 
+# To get your ID, run:
+#   npx wrangler kv:namespace create RESPONSES
+# Then paste the printed ID above.
+ 
