@@ -1,0 +1,24 @@
+{
+  "name": "class-management-system",
+  "version": "1.0.0",
+  "description": "A Cloudflare Workers app for class management with teacher/student portals",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "kv:create": "wrangler kv:namespace create CLASS_DATA",
+    "kv:list": "wrangler kv:namespace list"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "education",
+    "class-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
